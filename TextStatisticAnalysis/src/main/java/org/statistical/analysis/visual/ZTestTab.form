@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.statistical.analysis.visual.ZTestTab">
+  <grid id="27dc6" binding="ZTestTab" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="526" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="9bf64" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="787f4"/>
+          <text value="Text A file"/>
+        </properties>
+      </component>
+      <component id="38c0b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="5e315"/>
+          <text value="Text B file"/>
+        </properties>
+      </component>
+      <component id="500e7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="6e845"/>
+          <text value="Text C file (unknown author)"/>
+        </properties>
+      </component>
+      <component id="42d15" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="1899d"/>
+          <text value="Ignored words file"/>
+        </properties>
+      </component>
+      <component id="e7411" class="javax.swing.JButton" binding="textAFileButton">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10307442"/>
+          <enabled value="true"/>
+          <text value="Choose file"/>
+        </properties>
+      </component>
+      <component id="6a3a4" class="javax.swing.JButton" binding="textBFileButton">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10307442"/>
+          <text value="Choose file"/>
+        </properties>
+      </component>
+      <component id="46270" class="javax.swing.JButton" binding="textCFileButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10307442"/>
+          <text value="Choose file"/>
+        </properties>
+      </component>
+      <component id="57b7d" class="javax.swing.JButton" binding="ignoredWordsFileButton">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10307442"/>
+          <text value="Choose file"/>
+        </properties>
+      </component>
+      <component id="787f4" class="javax.swing.JTextField" binding="textAField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-787713"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="5e315" class="javax.swing.JTextField" binding="textBField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-787713"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="6e845" class="javax.swing.JTextField" binding="textCField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-787713"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="1899d" class="javax.swing.JTextField" binding="ignoredWordsField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-787713"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="c5891" class="javax.swing.JButton" binding="executeZtestAnalysisButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11760710"/>
+          <text value="Execute Ztest analysis"/>
+        </properties>
+      </component>
+      <component id="a12b0" class="javax.swing.JCheckBox" binding="outputToFileCheckBox" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Output to file"/>
+        </properties>
+      </component>
+      <scrollpane id="af22b">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="42b86" class="javax.swing.JTextArea" binding="outputTextArea">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
